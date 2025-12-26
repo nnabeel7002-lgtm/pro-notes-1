@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Notes-Physics</title>
+    <link href="index.html">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!--Banner-->
+    <div class="banner">
+        <h1 style="color: rgb(3, 3, 106);">Applied Physics</h1>
+    </div>
+    <div class="menu-icon" id="menu-icon" onclick="ToggleNav()">☰</div>
+
+    <!-- Vertical navigation bar -->
+    <nav id="myNav" class="sidenav">
+        <div class="menu-contents">
+        <a href="home.html"><i class="fa-solid fa-house"></i>  Home</a>
+        <a href="about.html"><i class="fa-solid fa-circle-info"></i>  About</a>
+        <a href="subject.html"><i class="fa-solid fa-book"></i>  Subjects</a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i>  Contact</a>
+        </div>
+    </nav>
+    <main>
+        <!--PDF Cards-->
+        <div class="subject-docs">
+
+            <div class="docs"><h2>Handwritten Notes</h2>
+                <iframe src="../Notes/physics_notes.pdf" width="100%" height="600px"></iframe>
+                <br>
+                <a href="../Notes/physics_notes.pdf" download>
+                <button style="padding: 10px 20px; font-size:16px; background-color:#FFF0F0; border:none; border-radius:8px; cursor:pointer;">
+                    Download PDF
+                </button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="footer-content">
+            <p>Content and Notes © 2025 pronotes.com</p>
+            Credits: <a href="https://www.linkedin.com/in/hamna-shakoor-277342389?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i>  Hamna Shakoor</a>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
