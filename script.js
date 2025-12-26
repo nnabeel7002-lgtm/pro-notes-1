@@ -18,7 +18,7 @@ function checkLogin() {
         let num = parseInt(roll.substring(7)); // get 001–063
 
         if (num >= 1 && num <= 63) {
-            window.location.href="HTML FILES/home.html";
+            window.location.href="html_files/home.html";
         } else {
             alert("Invalid Roll Number");
         }
